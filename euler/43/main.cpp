@@ -44,8 +44,8 @@ int main(int argc, char** argv)
     // This should be 10 factorial.
     std::cout << "Added " << candidates.size() << " candidates.\n";
 
-    std::array<uint64_t, 11> pow_of_ten = {1, 10, 100, 1000, 10000, 100000,
-        1000000, 10000000, 100000000, 1000000000, 10000000000};
+    const std::array<uint64_t, 11> pow_of_ten = {1, 10, 100, 1000, 10000,
+        100000, 1000000, 10000000, 100000000, 1000000000, 10000000000};
     // Pseudo-code:
     // For starting digits 0 through 7
     std::array<uint16_t, 8> digit_indices = {0, 1, 2, 3, 4, 5, 6, 7};
